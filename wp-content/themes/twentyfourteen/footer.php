@@ -12,15 +12,18 @@
 
 		</div><!-- #main -->
 
-		<div id="colophon" class="site-footer" role="contentinfo">
-			
-			<?php get_sidebar( 'footer' ); ?>
-
-			<div class="site-info">
-				<?php do_action( 'twentyfourteen_credits' ); ?>
-				<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentyfourteen' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentyfourteen' ), 'WordPress' ); ?></a>
-			</div><!-- .site-info -->
-		</div><!-- #colophon -->
+		<div class="footer-int">
+	<div class="wrap">
+		<div class="address int">
+			<img src="<?php echo get_template_directory_uri(); ?>/images/logo-footer.png" alt="">
+			<p>
+				PONTO DE ATENDIMENTO: <br>
+				Rua Antônio Canero, 56 - Mooca - São Paulo - SP <br>
+				Celular: (11) 95938-6123
+			</p>
+		</div>
+	</div>
+</div>
 	</div><!-- #page -->
 
 	<?php wp_footer(); ?>
