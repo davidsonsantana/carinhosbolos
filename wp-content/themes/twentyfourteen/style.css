@@ -21,31 +21,68 @@ em{font-style:normal}
 *{outline:0}
 /* end reset */
 
+
+/*Font Face*/
+
+@font-face {
+    font-family: 'blissregular';
+    src: url('fonts/bliss-webfont-webfont.eot');
+    src: url('fonts/bliss-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bliss-webfont-webfont.woff2') format('woff2'),
+         url('fonts/bliss-webfont-webfont.woff') format('woff'),
+         url('fonts/bliss-webfont-webfont.ttf') format('truetype'),
+         url('fonts/bliss-webfont-webfont.svg#blissregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'coralregular';
+    src: url('fonts/coral-webfont-webfont.eot');
+    src: url('fonts/coral-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/coral-webfont-webfont.woff2') format('woff2'),
+         url('fonts/coral-webfont-webfont.woff') format('woff'),
+         url('fonts/coral-webfont-webfont.ttf') format('truetype'),
+         url('fonts/coral-webfont-webfont.svg#coralregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* End Font face */
+
 #main-content{width: 808px;margin: 0 auto}
 .site-footer{width: 808px;margin: 0 auto}
 
 #masthead{width: 100%;min-height: 190px;background: url(images/bg-header.png) no-repeat center top}
-.wrap{width: 808px;margin: 0 auto}
+.wrap{width: 808px;margin: 0 auto;}
 .site-title{width: 298px;margin: 0 auto}
 
 .nav-menu{margin: -66px 0 0;border-left: 1px dashed #e52362;border-bottom: 1px dashed #e52362;border-right: 1px dashed #e52362;border-radius: 0 0 8px 8px;padding: 14px 15px 9px;display: block;overflow: hidden;}
-.nav-menu li{float: left;padding: 8px 28px}
-.nav-menu li a{text-decoration: none;color:#30140c;font-size: 18px;font-family: Coral, Arial}
+.nav-menu li{float: left;padding: 8px 26px}
+.nav-menu li a{text-decoration: none;color:#30140c;font-size: 18px;font-family: 'coralregular'}
 .nav-menu li a:hover{transition: all 0.3s ease 0s;color:#e52060;}
-.menu-item-14{margin-left: 245px}
+.menu-item-11{padding-right: 0!important}
+.menu-item-12{margin-left: 251px}
 .phone-fb{float: right;margin:20px -35px 0 0;}
 .phone-fb li{float: left;}
-.phone-fb li.number{background: url(images/bg-number.png) no-repeat;padding: 8px 24px;font-size: 14px;color: #fff;font-family:Coral, Arial;}
+.phone-fb li.number{background: url(images/bg-number.png) no-repeat;padding: 5px 24px;font-size: 14px;color: #fff;font-family: 'coralregular'}
+.phone-fb li.number span{font-family: 'Arial'}
 .phone-fb li.fb{width: 28px;height: 25px;background: url(images/fb.png) no-repeat;display: block;text-indent: -999em;margin: 5px 0 0 10px}
 .phone-fb li.fb a{display: block;}
 
 .footer-home{width: 100%;background: url(images/bg-footer.png) no-repeat center bottom;min-height: 520px;}
 
-.description{width: 340px;float: left;color:#fff;font-family: Coral, Arial;margin-top: 200px}
-.description h2{font-weight: 700;margin:0 0 10px;}
+.description{width: 340px;float: left;color:#fff;font-family: 'blissregular';margin-top: 200px}
+.description h2{font-weight: 700;margin:0 0 10px;font-size:20px;}
 .description p{margin:0 0 10px;}
-.description a{color:#fff;font-family: Coral, Arial}
+.description a{color:#fff;font-family: 'coralregular';font-size: 20px}
 
-.news{width: 362px;float: left;background: url(images/bg-novidades.png) no-repeat;margin-top: 200px;font-family: Coral, Arial;margin-top: 200px;color:#fff;}
-.address{width: 609px;margin: 0 auto;clear: both;}
+.news{width: 322px;height:119px;float: left;background: url(images/bg-novidades.png) no-repeat;margin: 200px 0 0 65px;font-family: 'blissregular';margin-top: 200px;color:#fff;padding: 24px;position: relative;}
+.news span{font-size:20px;margin: 0 0 5px;display: block;}
+.news p{}
+.news .bt-acesse{width:130px;height: 28px;background: url(images/bt-acessar.jpg) no-repeat; position: absolute;right: 33px;bottom: 30px ;display: block;text-indent: -999em}
+.address{width: 609px;margin: 0 auto;clear: both;position: relative;top: 90px;}
 .address img{float: left}
+.address p{color: #190702;font-family: 'blissregular';position: relative;right: -15px;top: 38px;}

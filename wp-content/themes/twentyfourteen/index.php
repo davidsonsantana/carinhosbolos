@@ -32,7 +32,7 @@ get_header(); ?>
 		<div class="news">
 			<span>NOVIDADES</span>
 			<p>Acesse nosso blog e acompanhe Dicas e<br>Novidades sobre o nosso trabalho. Acesse<br>semanalmente, acompanhe e compartilhe os<br>seus preferidos!</p>
-			<a href="#">Acesse</a>
+			<a href="#" class="bt-acesse">Acesse</a>
 		</div>
 		<div class="address">
 			<img src="<?php echo get_template_directory_uri(); ?>/images/logo-footer.png" alt="">

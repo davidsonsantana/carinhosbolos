@@ -38,7 +38,7 @@
 	
 		<div class="wrap">
 			<ul class="phone-fb">
-				<li class="number">Telefone: 11-2371-1562</li>
+				<li class="number">Telefone: <span>11-2371-1562</span></li>
 				<li class="fb"><a href="#">Facebook</a></li>
 			</ul>
 
