@@ -19,6 +19,7 @@ sup{vertical-align:baseline}
 legend{color:#000}
 em{font-style:normal}
 *{outline:0}
+strong{font-weight: 700}
 /* end reset */
 
 
@@ -47,10 +48,11 @@ em{font-style:normal}
          url('fonts/coral-webfont-webfont.svg#coralregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 /* End Font face */
+body{background: url(images/bg-repeat.jpg) repeat-y center 0;}
+
 
 #main-content{width: 808px;margin: 0 auto}
 .site-footer{width: 808px;margin: 0 auto}
@@ -73,7 +75,7 @@ em{font-style:normal}
 .phone-fb li.fb a{display: block;}
 
 .footer-home{width: 100%;background: url(images/bg-footer.png) no-repeat center bottom;min-height: 520px;}
-.footer-int{width: 100%;background: url(images/bg-footer-int.png) no-repeat center bottom;min-height: 236px;}
+.footer-int{width: 100%;background: url(images/bg-footer-int.png) no-repeat center bottom;min-height: 270px;}
 
 .description{width: 340px;float: left;color:#fff;font-family: 'blissregular';margin-top: 200px}
 .description h2{font-weight: 700;margin:0 0 10px;font-size:20px;}
@@ -85,6 +87,11 @@ em{font-style:normal}
 .news p{}
 .news .bt-acesse{width:130px;height: 28px;background: url(images/bt-acessar.jpg) no-repeat; position: absolute;right: 33px;bottom: 30px ;display: block;text-indent: -999em}
 .address{width: 609px;margin: 0 auto;clear: both;position: relative;top: 90px;}
-.address.int{width: 609px;margin: 0 auto;clear: both;position: relative;top: 150px;}
+.address.int{width: 609px;margin: 0 auto;clear: both;position: relative;top: 170px;}
 .address img{float: left}
 .address p{color: #190702;font-family: 'blissregular';position: relative;right: -15px;top: 38px;}
+
+.site-content{}
+
+.site-content h2{color: #e52060;font-size: 24px;font-family: 'coralregular';padding-bottom: 5px;border-bottom: 1px solid #e52060;font-weight: 700;margin: 60px 0 30px}
+.site-content p{color: #190702;font-family: 'blissregular',Arial;font-size: 16px;line-height: 18px;padding: 8px;}
