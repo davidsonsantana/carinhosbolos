@@ -22,6 +22,7 @@ get_header(); ?>
 			<?php if ( have_posts() ) : ?>
 				<?php while ( have_posts() ) : the_post(); ?>    
 					<h2><?php the_title(); ?></h2>
+					<img class="int-empresa" src="<?php the_field('topo_interna'); ?>" alt="">
 					<?php the_content(); ?>
 
 				<?php endwhile; ?>

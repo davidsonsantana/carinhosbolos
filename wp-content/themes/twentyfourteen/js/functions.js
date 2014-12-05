@@ -5,6 +5,7 @@
  * footer widgets and Featured Content slider
  *
  */
+
 ( function( $ ) {
 	var body    = $( 'body' ),
 		_window = $( window );
@@ -131,4 +132,14 @@
 			} );
 		}
 	} );
+
+		//JQuery Placeholder Contato
+	
+	$('#vfb-5').attr('placeholder','NOME');
+	$('#vfb-6').attr('placeholder','EMAIL');
+	$('#vfb-8').attr('placeholder','FONE');
+	$('#vfb-9').attr('placeholder','MENSAGEM');
+
 } )( jQuery );
+
+		
