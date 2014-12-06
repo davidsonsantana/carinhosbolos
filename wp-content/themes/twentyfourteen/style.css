@@ -94,5 +94,16 @@ body{background: url(images/bg-repeat.jpg) repeat-y center 0;}
 .site-content{}
 
 .site-content h2{color: #e52060;font-size: 24px;font-family: 'coralregular';padding-bottom: 5px;border-bottom: 1px solid #e52060;font-weight: 700;margin: 60px 0 30px}
-.site-content p{color: #190702;font-family: 'blissregular',Arial;font-size: 16px;line-height: 18px;padding: 8px;}
+.site-content p{color: #190702;font-family: 'blissregular',Arial;font-size: 16px;line-height: 18px;padding: 8px;margin: 0 0 0 50px;}
 .int-empresa{margin:0 0 0 28px}
+
+.vfb-legend, #vfb-3{display: none}
+.visual-form-builder fieldset {background-color: #eee!important;;border-radius: 3px;clear: both;margin:  0;padding: 0;background: #fff!important}
+#item-vfb-1{border-radius:15px ;padding: 20px;padding: 20px;border:1px solid #0d0d0d;}
+#item-vfb-2{border:none;}
+#fvfb-form-1{background: #fff}
+#vfb-4{width: 130px;height: 29px;background: url(images/bt-enviar.jpg) no-repeat;display: block;margin:20px auto 0;text-indent: -999em;border: none;cursor: pointer;}
+#vfb-form-1{width: 750px!important;margin:0 0 0 25px;}
+input.vfb-medium, input.vfb-medium[type="text"], input.vfb-medium[type="tel"], input.vfb-medium[type="email"], #vfb-9, input.vfb-medium[type="url"], select.vfb-medium {padding: 10px!important;width: 98%!important;font-family: 'blissregular';border: 1px solid #e62664;background: 
+#fbf6ea }
+.vfb-desc{font-size:16px;margin: 0 0 10px!important;font-family:'blissregular' }
