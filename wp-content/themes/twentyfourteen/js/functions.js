@@ -133,6 +133,9 @@
 		}
 	} );
 
+
+
+
 		//JQuery Placeholder Contato
 	
 	$('#vfb-5').attr('placeholder','NOME');
