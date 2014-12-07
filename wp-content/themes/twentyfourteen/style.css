@@ -53,7 +53,7 @@ strong{font-weight: 700}
 /* End Font face */
 body{background: url(images/bg-repeat.jpg) repeat-y center 0;}
 
-
+.active{color: #e52060!important}
 #main-content{width: 808px;margin: 0 auto}
 .site-footer{width: 808px;margin: 0 auto}
 

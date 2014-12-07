@@ -140,6 +140,25 @@
 	$('#vfb-8').attr('placeholder','FONE');
 	$('#vfb-9').attr('placeholder','MENSAGEM');
 
+	//Efeito active de Menu
+
+	
+		if(window.location.href.indexOf("page_id=2") != -1){
+			$('#menu-item-14 a').addClass('active');
+		}
+		if(window.location.href.indexOf("page_id=5") != -1){
+			$('#menu-item-13 a').addClass('active');
+		}
+		if(window.location.href.indexOf("page_id=7") != -1){
+			$('#menu-item-12 a').addClass('active');
+		}
+		if(window.location.href.indexOf("page_id=9") != -1){
+			$('#menu-item-11 a').addClass('active');
+		}
+
+	
+
+
 } )( jQuery );
 
 		
