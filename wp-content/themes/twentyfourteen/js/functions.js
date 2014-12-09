@@ -156,8 +156,15 @@
 		if(window.location.href.indexOf("page_id=9") != -1){
 			$('#menu-item-11 a').addClass('active');
 		}
-
+		if(window.location.href.indexOf("?p=") != -1){
+			$('.main-content p').addClass('nov');
+		}
+		//Pega LI Impar
 		$('.box-post:even').addClass('even');
+		//Marca menu Novidades ativo
+		if ($('.main-content h2').hasClass('novidades')) {
+			$('#menu-item-12').addClass('current-menu-item')
+		};
 
 
 } )( jQuery );

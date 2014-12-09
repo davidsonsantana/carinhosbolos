@@ -1008,6 +1008,11 @@ input.vfb-medium, input.vfb-medium[type="text"], input.vfb-medium[type="tel"], i
 .box-post p{text-decoration: none;color: #190702;font-size: 12px;font-family: 'blissregular'}
 .even{margin: 20px 20px 0 3px}
 
+.novidades{border-bottom: 1px solid #e52060;color: #e52060;font-family: "coralregular";font-size: 24px;font-weight: 700;margin: 60px 0 30px;padding-bottom: 5px}
+
+.main-content h3{font-size: 30px;font-family: 'blissregular';color:#190702;margin: 0 0 20px}
+.img-int-post{margin: 0 10px 10px 0;float: left;}
+.main-content .nov{font-size: 16px;font-family: 'blissregular';color:#190702;margin: 0 0 20px;line-height: 22px;}
 
 
 

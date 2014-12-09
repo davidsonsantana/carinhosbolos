@@ -16,6 +16,8 @@ get_header(); ?>
 
 			<h2 class="novidades">Novidades</h2>
 			<h3><?php the_title(); ?></h3>
+			<?php $image = wp_get_attachment_image_src(get_field('img_novidades'), 'thumbnail'); ?>
+			<img class="img-int-post" src="<?php echo $image[0]; ?>" alt="<?php echo get_the_title(get_field('img_novidades')) ?>" />
 			<?php the_content(); ?>
 
 
