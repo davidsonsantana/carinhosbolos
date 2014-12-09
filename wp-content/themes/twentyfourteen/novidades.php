@@ -16,7 +16,7 @@ get_header(); ?>
 <div id="main-content" class="main-content">
 
 
-	<ul>
+	<ul class="overflow-novidades">
     <?php
      $args = array(
        'cat' => '3',

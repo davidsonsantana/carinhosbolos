@@ -976,7 +976,7 @@ a.sp-video:after
 .news p{}
 .news .bt-acesse{width:130px;height: 28px;background: url(images/bt-acessar.jpg) no-repeat; position: absolute;right: 33px;bottom: 30px ;display: block;text-indent: -999em}
 .address{width: 609px;margin: 0 auto;clear: both;position: relative;top: 90px;}
-.address.int{width: 609px;margin: 0 auto;clear: both;position: relative;top: 170px;}
+.address.int{width: 609px;margin: 0 auto;clear: both;position: relative;top: 170px;height: 160px;}
 .address img{float: left}
 .address p{color: #190702;font-family: 'blissregular';position: relative;right: -15px;top: 38px;}
 
@@ -999,7 +999,7 @@ input.vfb-medium, input.vfb-medium[type="text"], input.vfb-medium[type="tel"], i
 
 
 
-#main{overflow: hidden;}
+
 
 
 .box-post{width: 370px;background: #f7f5ef;border-radius: 5px;border:1px solid #d8cac3;padding: 10px;float: left;margin: 20px 0 0}
@@ -1015,7 +1015,7 @@ input.vfb-medium, input.vfb-medium[type="text"], input.vfb-medium[type="tel"], i
 .main-content .nov{font-size: 16px;font-family: 'blissregular';color:#190702;margin: 0 0 20px;line-height: 22px;}
 
 
-
+.overflow-novidades{overflow: hidden;}
 
 
 
