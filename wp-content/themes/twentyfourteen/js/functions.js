@@ -144,8 +144,6 @@
 	$('#vfb-9').attr('placeholder','MENSAGEM');
 
 	//Efeito active de Menu
-
-	
 		if(window.location.href.indexOf("page_id=2") != -1){
 			$('#menu-item-14 a').addClass('active');
 		}
@@ -159,7 +157,7 @@
 			$('#menu-item-11 a').addClass('active');
 		}
 
-	
+		$('.box-post:even').addClass('even');
 
 
 } )( jQuery );

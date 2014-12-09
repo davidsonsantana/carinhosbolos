@@ -942,7 +942,7 @@ a.sp-video:after
 
 
 
-.active{color: #e52060!important}
+.current-menu-item a{color: #e52060!important}
 #main-content{width: 808px;margin: 0 auto}
 .site-footer{width: 808px;margin: 0 auto}
 
@@ -996,3 +996,35 @@ a.sp-video:after
 input.vfb-medium, input.vfb-medium[type="text"], input.vfb-medium[type="tel"], input.vfb-medium[type="email"], #vfb-9, input.vfb-medium[type="url"], select.vfb-medium {padding: 10px!important;width: 98%!important;font-family: 'blissregular';border: 1px solid #e62664;background: 
 #fbf6ea }
 .vfb-desc{font-size:16px;margin: 0 0 10px!important;font-family:'blissregular' }
+
+
+
+#main{overflow: hidden;}
+
+
+.box-post{width: 370px;background: #f7f5ef;border-radius: 5px;border:1px solid #d8cac3;padding: 10px;float: left;margin: 20px 0 0}
+.box-post h2 a{color: #190702;font-family: 'blissregular';font-size: 16px;text-decoration: none}
+.box-post a{text-decoration: none;color: #e52060;font-size: 9px;font-family: 'blissregular'}
+.box-post p{text-decoration: none;color: #190702;font-size: 12px;font-family: 'blissregular'}
+.even{margin: 20px 20px 0 3px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
