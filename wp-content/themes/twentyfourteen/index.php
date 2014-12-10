@@ -15,6 +15,7 @@
  */
 
 get_header(); ?>
+
 <script src="<?php echo get_template_directory_uri(); ?>/carrossel/js/jquery.sliderPro.min.js"></script>
 <script type="text/javascript">
 		jQuery( document ).ready(function( $ ) {

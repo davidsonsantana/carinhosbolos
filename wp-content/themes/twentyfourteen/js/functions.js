@@ -156,15 +156,28 @@
 		if(window.location.href.indexOf("page_id=9") != -1){
 			$('#menu-item-11 a').addClass('active');
 		}
+		//Adiciona class "nov" em tag <p> da interna de produtos
 		if(window.location.href.indexOf("?p=") != -1){
 			$('.main-content p').addClass('nov');
 		}
+
+		
 		//Pega LI Impar
 		$('.box-post:even').addClass('even');
 		//Marca menu Novidades ativo
 		if ($('.main-content h2').hasClass('novidades')) {
 			$('#menu-item-12').addClass('current-menu-item')
 		};
+
+
+	//adiciona classe 'none' em submenu e faz o hover do mesmo.
+		$('.sub-menu').addClass('none');
+		$('#menu-item-74').hover(function() {
+			$('.sub-menu').show();
+		}, function() {
+			$('.sub-menu').hide();
+		});
+	
 
 
 } )( jQuery );
