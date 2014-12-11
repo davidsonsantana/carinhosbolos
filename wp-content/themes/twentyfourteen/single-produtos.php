@@ -10,11 +10,16 @@
 get_header(); ?>
 
 <div id="main-content" class="main-content">
-
+	<h2 class="title-prod-int"><?php
+		$category = get_the_category(); 
+		echo $category[0]->cat_name;
+		?>
+		<a class="history-back" href="#"  onclick="window.history.back();return false;">« Voltar</a>
+	</h2>
 	<?php if ( have_posts() ) : ?>
 		<?php while ( have_posts() ) : the_post(); ?>    
 
-			<h2><?php single_cat_title( '', true ); ?></h2>
+			
 			
 
 			<div class="img-produto-interna">

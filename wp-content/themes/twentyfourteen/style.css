@@ -1430,7 +1430,8 @@ body.category .main-content p
 
 .info
 {
-    margin:100px 0 0
+    width: 420px;
+    float: right;
 }
 
 .info h3
@@ -1456,5 +1457,25 @@ body.category .main-content p
     font-size:14px
 }
 
+.title-prod-int
+{
+    border-bottom: 1px solid #e52060;
+    color: #e52060;
+    font-family: "coralregular";
+    font-size: 24px;
+    font-weight: 700;
+    margin: 60px 0 30px;
+    padding-bottom: 5px
+}
+.history-back
+{
+    float: right;
+    text-decoration: none;
+    color: #e52060
+}
 
+.history-back:hover
+{
+    text-decoration: underline;
+}
 

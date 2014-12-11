@@ -17,7 +17,7 @@ get_header(); ?>
 
 	<?php if ( have_posts() ) : ?>
 	<h2>
-		
+		<?php single_cat_title( '', true ); ?>
 	</h2>
  	<?php
         // Show an optional term description.
