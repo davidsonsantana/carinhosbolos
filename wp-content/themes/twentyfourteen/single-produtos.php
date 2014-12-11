@@ -23,9 +23,9 @@ get_header(); ?>
 			</div>
 			<div class="info">
 				<h3><?php the_title(); ?></h3>
-				<span><?php the_field('codigo_de_produto') ?></span>
+				<span><strong>CÓDIGO DO PRODUTO: </strong><?php the_field('codigo_de_produto') ?></span>
 				<p><?php the_field('descricao') ?></p>
-				<p><strong>INGREDIENTES</strong><?php the_field('ingredientes') ?></p>
+				<p><strong>INGREDIENTES: </strong><?php the_field('ingredientes') ?></p>
 			</div>
 
 

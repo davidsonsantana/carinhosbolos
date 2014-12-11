@@ -13,7 +13,12 @@ get_header(); ?>
 
 <div id="main-content" class="main-content">
 
-	<h2><?php single_cat_title( '', true ); ?></h2>
+
+
+	<?php if ( have_posts() ) : ?>
+	<h2>
+		
+	</h2>
  	<?php
         // Show an optional term description.
         $term_description = term_description();
@@ -21,9 +26,7 @@ get_header(); ?>
             printf( '<div class="taxonomy-description">%s</div>', $term_description );
         endif;
 	?>
-
-	<?php if ( have_posts() ) : ?>
-	<ul>
+	<ul class="miniaturas-prod">
 		<?php while ( have_posts() ) : the_post(); ?>    
 			<li>
 				<?php $image = wp_get_attachment_image_src(get_field('img_produtos'), 'thumbnail'); ?>
