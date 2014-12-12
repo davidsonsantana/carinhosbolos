@@ -30,7 +30,7 @@ get_header(); ?>
 		<?php while ( have_posts() ) : the_post(); ?>    
 			<li>
 				<?php $image = wp_get_attachment_image_src(get_field('img_produtos'), 'thumbnail'); ?>
-				<img src="<?php echo $image[0]; ?>" alt="<?php echo get_the_title(get_field('img_produtos')) ?>" />
+				<a href="<?php the_permalink(); ?>"><img src="<?php echo $image[0]; ?>" alt="<?php echo get_the_title(get_field('img_produtos')) ?>" /></a>
 				<h3><?php the_title(); ?></h3>
 				<div class="line">
 					<a href="<?php the_permalink(); ?>">Ver Detalhes</a>

@@ -1247,7 +1247,7 @@ input.vfb-medium,input.vfb-medium[type="text"],input.vfb-medium[type="tel"],inpu
 {
     text-decoration:none;
     color:#e52060;
-    font-size:9px;
+    font-size:12px;
     font-family:'blissregular'
 }
 
@@ -1477,5 +1477,20 @@ body.category .main-content p
 .history-back:hover
 {
     text-decoration: underline;
+}
+
+.vfb-item-secret
+{
+    display: none!important
+}
+.page-template-novidades-php .tit-h2
+{
+    border-bottom: 1px solid #e52060;
+    color: #e52060;
+    font-family: "coralregular";
+    font-size: 24px;
+    font-weight: 700;
+    margin: 60px 0 30px;
+    padding-bottom: 5px;
 }
 

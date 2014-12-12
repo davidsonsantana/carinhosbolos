@@ -15,7 +15,7 @@ get_header(); ?>
 
 <div id="main-content" class="main-content">
 
-
+<h2 class="tit-h2"><?php the_title(); ?></h2>
 	<ul class="overflow-novidades">
     <?php
      $args = array(
